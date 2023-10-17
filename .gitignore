@@ -1,0 +1,10 @@
+# VS cache/settings files
+/.vs/
+*.user
+*.aps
+*.dbmdl
+*.jfm
+
+# Output and intermediate build files
+/Bin/
+obj/
