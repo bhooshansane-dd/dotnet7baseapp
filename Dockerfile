@@ -23,6 +23,7 @@ COPY --from=sdk-image /MyWebApplication/out .
 EXPOSE 5000
 #expose this port to docker so that it can be mapped with other
 EXPOSE 80
+#we can specify and expose different ports as shown below
 ENV ASPNETCORE_URLS=http://*:5000
 
 #provide a command to run the application
